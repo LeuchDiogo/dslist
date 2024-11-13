@@ -24,7 +24,6 @@ public class GameService {
 		GameDTO dto = new GameDTO(result);
 		return dto;
 	}
-	
 	@Transactional(readOnly = true)
 	public List<GameMinDTO> findAll()
 	{
